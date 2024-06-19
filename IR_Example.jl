@@ -32,7 +32,8 @@ DTAB=zeros(ld,8)
 for ix = 1:ld
     DTAB[ix,:] .= time_example(idim[ix]; printout=false, alpha=alpha)
 end
-formats="%d & %7.2e & %7.2e & %7.2e & %7.2e & %d & %7.2e & %d" 
+#formats="%d & %7.2e & %7.2e & %7.2e & %7.2e & %d & %7.2e & %d" 
+formats="%d & %7.1e & %7.1e & %7.1e & %7.1e & %d & %7.1e & %d" 
 headers=["N", "LU", "OTF", "IP", "OTF-IR", "its", "IP-IR","its"]
 fprintTeX(headers,formats,DTAB)
 #DTAB
