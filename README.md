@@ -19,7 +19,6 @@ The codes in this project produce the table in the paper. To get started
 
 ```
 julia> using IR_Paper
-[ Info: Precompiling IR_Paper [top-level] (cache misses: wrong source (2))
 
 julia> maketabir1()
 \begin{tabular}{llllllll} 
