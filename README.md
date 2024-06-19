@@ -10,7 +10,7 @@ You must know enough about Julia and GitHub to
 
 The codes in this project produce the table in the paper. To get started
 
-  - Install the packages: BenchmarkTools, MultiPrecisionArrays, Printf
+  - Install the packages: BenchmarkTools, [MultiPrecisionArrays](https://github.com/ctkelley/MultiPrecisionArrays.jl), Printf
       - [How to install packages](https://datatofish.com/install-package-julia/)
   - Clone this repo to make a directory __IR_Precision_Transfers__
   - Go to that new directory and start Julia
