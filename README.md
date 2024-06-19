@@ -17,7 +17,7 @@ The codes in this project produce the table in the paper. To get started
      - Type ```using IR_Paper``` at the Julia prompt. Install missing packages if Julia complains.
      - Type ```maketabir1()``` at the Julia prompt to make the table.
 
-I used v1.11.0-beta2 for this becasue v1.11 seems to have faster matrix-vector products. 
+I used v1.11.0-beta2 for this because v1.11 seems to have faster matrix-vector products.
 
 ```
                _
