@@ -35,7 +35,7 @@ end
 formats="%d & %7.2e & %7.2e & %7.2e & %7.2e & %d & %7.2e & %d" 
 headers=["N", "LU", "OTF", "IP", "OTF-IR", "its", "IP-IR","its"]
 fprintTeX(headers,formats,DTAB)
-DTAB
+#DTAB
 end
 
 """
