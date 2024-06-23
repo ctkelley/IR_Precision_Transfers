@@ -1,6 +1,10 @@
 # IR_Precision_Transfers
 
-This repo has the codes to create the table in my paper __Interprecision transfers in iterative refinement__
+This repo has the codes to create the table in my paper 
+
+__Interprecision transfers in iterative refinement__
+
+__by C. T. Kelley__
 
 You must know enough about Julia and GitHub to
 
@@ -14,7 +18,7 @@ The codes in this project produce the table in the paper. To get started
       - [How to install packages](https://datatofish.com/install-package-julia/)
   - Clone this repo to make a directory __IR_Precision_Transfers__
   - Go to that new directory and start Julia
-     - Type ```using IR_Paper``` at the Julia prompt. Install missing packages if Julia complains.
+     - Type ```using IR_Paper``` at the Julia prompt. Install any missing packages if Julia complains.
      - Type ```maketabir1()``` at the Julia prompt to make the table.
 
 I used v1.11.0-beta2 for this because v1.11 seems to have faster matrix-vector products.
